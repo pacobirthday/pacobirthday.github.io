@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font: normal 16px/24px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: url("../images/b-red.jpg");
+}
+
+.info {
+  padding: 40px;
+  background: #7a2521;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.info h1 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.input-panel {
+  width: 100%;
+}
+
+.input-panel input {
+  margin: 10px auto;
+  display: block;
+  min-width: 30%;
+  border-radius: 5px;
+  border: none;
+  min-height: 40px;
+  color: #47478e;
+  padding: 7px 7px 7px 20px;
+}
+
+.input-panel button {
+  width: 300px;
+  height: 50px;
+  margin: 30px auto auto;
+  display: block;
+  color: #7a2521;
+  border: 3px solid #7a2521;
+  background: white;
+  border-radius: 25px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.input-panel button:hover {
+  color: white;
+  background: #7a2521;
+}
+
+.input-panel a {
+  margin: 40px auto auto;
+  text-align: center;
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
