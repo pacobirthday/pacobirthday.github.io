@@ -5,10 +5,10 @@
 function login() {
     console.log('Sending log in request');
     var password_field = document.getElementById("password").value;
-    if(password_field === "Mia"){
+    if(password_field === "Paco"){
         window.location.href = "home.html";
     }else{
-        alert("Try Again Dumbass!");
+        alert("Try Again!");
         password_field.value = "";
     }
     
