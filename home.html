@@ -1,20 +1,75 @@
 <!DOCTYPE html>
 <html>
-  
+
 <head>
-    <title>HTML video controls Attribute</title>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+    <script src="javascript/firework.js"></script>
+
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23019901-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23019901-1');
+    </script>
+    <style>
+        body {
+            background: rgb(96, 96, 96);
+            margin: 0;
+        }
+
+        .card-deck {
+            margin-bottom: 20px;
+        }
+
+        .card-text {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        canvas {
+            cursor: crosshair;
+            display: block;
+        }
+    </style>
 </head>
-  
+
+
+
 <body>
-    <center>
-        <h1 style="color:green;">Happy Birthday Paco</h1>
-  
-        <h3>Play video below</h3>
-  
-        <video width="400" height="200" controls>
-            <source src="media/sample.mp4" type="video/mp4">
-        </video>
-    </center>
+    <canvas id="canvas">Canvas is not supported in your browser.</canvas>
+    <div class="container clearfix" style="min-width: 70%; margin-top: 80px;">
+        <div class="row">
+            <div class="col-12">
+                <section>
+                    <center>
+                        <h1 style="color:white;">Happy Birthday Paco</h1>
+
+                        <h3 style="color:white;">Play video below</h3>
+
+                        <video width="900" height="500" controls>
+                            <source src="media/sample.mp4" type="video/mp4">
+                        </video>
+                    </center>
+                </section>
+            </div>
+        </div>
+    </div>
 </body>
-  
+
 </html>
