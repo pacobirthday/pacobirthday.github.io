@@ -16,14 +16,26 @@
         body {
             background-image: url("img/background.png");
             background-size: cover;
-            background-repeat: no-repeat;
             background-position: center center;
         }
 
-        h1{
+        h1 {
             color: white;
         }
-        h3{
+
+        h2 {
+            color: white;
+        }
+
+        h5 {
+            color: white;
+        }
+
+        h3 {
+            color: white;
+        }
+
+        p {
             color: white;
         }
 
@@ -31,22 +43,63 @@
             max-width: 100%;
             max-height: 100%;
         }
+
+        @media (min-width: 576px) {
+            .small_container {
+                width: 100%;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .small_container {
+                width: 100%;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .small_container {
+                display: none;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .large_container {
+                display: none;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .large_container {
+                display: 100%;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .large_container {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 
 <body>
     <div class="container clearfix" style="min-width: 70%; margin-top: 80px;">
-        <div class="page-header" style="min-width: 100%; text-align: center">
-            <h1>Happy Birthday Paco</h1>
-            <h3>We wish you ...</h1>
-
+        <div class="container">
+            <div class="page-header" style="min-width: 100%; text-align: center">
+                <h1 style="font-family: Blippo, fantasy;">Happy Birthday Paco!</h1>
+            </div>
+            <h3 style="font-family: Comic Sans MS; margin-top: 80px;">
+                We are so grateful to have you in our lives. A friend like you only comes once in a lifetime. Thank you
+                for your true friendship. Best wishes on your birthday!
+            </h3>
         </div>
-        <div class="row" style="margin-top: 20px;">
+
+        <div class="row" style="margin-top: 120px;">
             <div class="col-12">
-                <div class="card">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="card">
+                <div class="card" style="background-color: transparent;">
+                    <div class="row" style="background-color: transparent;">
+                        <div class="col-sm-12" style="background-color: transparent;">
+                            <div class="card" style="background-color: transparent;">
                                 <video src="sample.mp4" autoplay loop controls muted></video>
                             </div>
                         </div>
@@ -55,18 +108,18 @@
                 </div>
             </div>
         </div>
-        <div class="row" style="margin-top: 20px;">
+
+        <div class="row" style="margin-top: 80px;">
             <div class="col-12">
-                <div class="card">
-                    <div class="row">
-                        <div class="col-sm-7">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of
-                                    the
-                                    card's
-                                    content.</p>
+                <div class="card" style="background-color: transparent;">
+                    <div class="row" style="background-color: transparent;">
+                        <div class="col-sm-7" style="background-color: transparent;">
+                            <div class="card-body" style="background-color: transparent;">
+                                <h1 class="card-title" style="font-family: Blippo, fantasy;">Monterrey, Mexico</h1>
+                                <h3 class="card-text" style="font-family: Comic Sans MS; text-align: justify;
+                                text-justify: inter-word; margin-top: 20%;">Thinking of you on your birthday! We wish
+                                    we could be with you on
+                                    your special day. We hope you have a great birthday full of love and joy.</h3>
                             </div>
                         </div>
 
@@ -79,29 +132,63 @@
                 </div>
             </div>
         </div>
-        <div class="row" style="margin-top: 20px;">
-            <div class="col-12">
-                <div class="card">
-                    <div class="row">
-                        <div class="col-sm-5">
-                            <div class="card">
-                                <video src="two.mp4" autoplay loop controls muted></video>
+
+
+        <div class="large_container">
+            <div class="row" style="margin-top: 20px; margin-bottom: 100px; background-color: transparent;">
+                <div class="col-12">
+                    <div class="card" style="background-color: transparent;">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <div class="card">
+                                    <video src="two.mp4" autoplay loop controls muted></video>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-7">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of
-                                    the
-                                    card's
-                                    content.</p>
+                            <div class="col-sm-7" style="background-color: transparent;">
+                                <div class="card-body" style="background-color: transparent;">
+                                    <h1 class="card-title" style="font-family: Blippo, fantasy;">Houston, Texas</h1>
+                                    <h3 class="card-text" style="font-family: Comic Sans MS; text-align: justify;
+                                text-justify: inter-word; margin-top: 20%;">You are a gift to us and everyone around
+                                        you. Thank you for all
+                                        that you do. We hope your birthday gives you the best memories till the next
+                                        one.
+                                    </h3>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
+        <div class="small_container" style="margin-top: 60px;">
+            <div class="row" style="margin-top: 20px; margin-bottom: 100px; background-color: transparent;">
+                <div class="col-12">
+                    <div class="card" style="background-color: transparent;">
+                        <div class="row">
+                            <div class="col-sm-7" style="background-color: transparent;">
+                                <div class="card-body" style="background-color: transparent;">
+                                    <h1 class="card-title" style="font-family: Blippo, fantasy;">Houston, Texas</h1>
+                                    <h3 class="card-text" style="font-family: Comic Sans MS; text-align: justify;
+                                text-justify: inter-word; margin-top: 20%;">You are a gift to us and everyone around
+                                        you. Thank you for all
+                                        that you do. We hope your birthday gives you the best memories till the next
+                                        one.
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="col-sm-5">
+                                <div class="card">
+                                    <video src="two.mp4" autoplay loop controls muted></video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
 
