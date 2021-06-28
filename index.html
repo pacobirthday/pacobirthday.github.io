@@ -1,21 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Login</title>
-    <link href="styles/sign-in-design.css" rel="stylesheet" type="text/css">
-    <script src="javascript/sign-in.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Home</title>
+    <!-- 
+
+Highway Template
+
+https://templatemo.com/tm-520-highway
+
+-->
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/fontAwesome.css">
+    <link rel="stylesheet" href="css/light-box.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
+    <!-- <link rel="stylesheet" href="css/sign-in-design.css"> -->
+
+    <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="js/sign-in.js"></script>
+
 </head>
+
 <body>
 
-<div class="info">
-    <h1>Happy Birthday Paco!</h1>
-</div>
 
 
-<div class="input-panel">
-    <input id = "password" type="password" name="password" title="Password" placeholder="Password" required>
-    <button id="sign-in-button" type="submit" onclick="login()">Enter</button>
-</div>
+    <div id="video-container">
+        <div class="video-overlay"></div>
+        <div class="video-content">
+            <div class="inner">
+                <h1>Happy Birthday Paco</h1>
+                <p>We wish you ....</p>
+                <p>This is from Mohammad, Mahtab and Nima</p>
+                <p style="margin-top: 40px;">Enter the password below</p>
+                <div class="input-panel">
+                    <input id="password" type="password" name="password"
+                        style="background-color: transparent; color: white; border: 1px solid; border-radius: 5px;"
+                        title="Password" placeholder="Password" required>
+
+                </div>
+                <button id="sign-in-button"
+                    style="background-color: transparent; color: white; border: 1px solid; border-radius: 5px; margin-top: 5px;"
+                    type="submit" onclick="login()">Enter</button>
+            </div>
+        </div>
+        <video autoplay="" loop="" muted>
+            <source src="sample.mp4" type="video/mp4" />
+        </video>
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+
 </body>
+
 </html>
