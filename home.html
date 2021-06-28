@@ -1,207 +1,103 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <title>Home</title>
-    <!-- 
 
-Highway Template
+    <style>
+        body {
+            background-image: url("img/background.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
 
-https://templatemo.com/tm-520-highway
+        h1{
+            color: white;
+        }
+        h3{
+            color: white;
+        }
 
--->
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/fontAwesome.css">
-    <link rel="stylesheet" href="css/light-box.css">
-    <link rel="stylesheet" href="css/templatemo-style.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
-    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        video {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
 </head>
 
 <body>
-    <div id="video-container">
-        <div class="video-overlay">
-            
-        </div>
-        <div class="video-content" style="margin-top: -300px;">
-            <div class="inner">
-                <h1>Happy Birthday Paco</h1>
-                <p>We wish you ....</p>
-            </div>
-        </div>
-        <video autoplay="" loop="" >
-            <source src="sample.mp4" type="video/mp4" />
-        </video>
-    </div>
+    <div class="container clearfix" style="min-width: 70%; margin-top: 80px;">
+        <div class="page-header" style="min-width: 100%; text-align: center">
+            <h1>Happy Birthday Paco</h1>
+            <h3>We wish you ...</h1>
 
+        </div>
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-12">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <video src="sample.mp4" autoplay loop controls muted></video>
+                            </div>
+                        </div>
 
-    <div class="full-screen-portfolio" id="portfolio">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="portfolio-item">
-                        <a href="img/pic_1_big.jpeg" data-lightbox="image-1">
-                            <div class="thumb">
-                                <div class="hover-effect">
-                                    <div class="hover-content">
-                                        <h1>Location <em>goes here</em></h1>
-                                        <p>Subtittle</p>
-                                    </div>
-                                </div>
-                                <div class="image">
-                                    <img src="img/pic_1.jpeg">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="portfolio-item">
-                        <a href="img/pic_2_big.jpeg" data-lightbox="image-1">
-                            <div class="thumb">
-                                <div class="hover-effect">
-                                    <div class="hover-content">
-                                        <h1>Location <em>goes here</em></h1>
-                                        <p>Subtittle</p>
-                                    </div>
-                                </div>
-                                <div class="image">
-                                    <img src="img/pic_2.jpeg">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="portfolio-item">
-                        <a href="img/pic_3_big.jpeg" data-lightbox="image-1">
-                            <div class="thumb">
-                                <div class="hover-effect">
-                                    <div class="hover-content">
-                                        <h1>Location <em>goes here</em></h1>
-                                        <p>Subtittle</p>
-                                    </div>
-                                </div>
-                                <div class="image">
-                                    <img src="img/pic_3.jpeg">
-                                </div>
-                            </div>
-                        </a>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="portfolio-item">
-                        <a href="img/pic_4_big.jpeg" data-lightbox="image-1">
-                            <div class="thumb">
-                                <div class="hover-effect">
-                                    <div class="hover-content">
-                                        <h1>Location <em>goes here</em></h1>
-                                        <p>Subtittle</p>
-                                    </div>
-                                </div>
-                                <div class="image">
-                                    <img src="img/pic_4.jpeg">
-                                </div>
+        </div>
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-12">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of
+                                    the
+                                    card's
+                                    content.</p>
                             </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="portfolio-item">
-                        <a href="img/pic_5_big.jpeg" data-lightbox="image-1">
-                            <div class="thumb">
-                                <div class="hover-effect">
-                                    <div class="hover-content">
-                                        <h1>Location <em>goes here</em></h1>
-                                        <p>Subtittle</p>
-                                    </div>
-                                </div>
-                                <div class="image">
-                                    <img src="img/pic_5.jpeg">
-                                </div>
+                        </div>
+
+                        <div class="col-sm-5">
+                            <div class="card">
+                                <video src="one.mp4" autoplay loop controls muted></video>
                             </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="portfolio-item">
-                        <a href="img/pic_6_big.jpeg" data-lightbox="image-1">
-                            <div class="thumb">
-                                <div class="hover-effect">
-                                    <div class="hover-content">
-                                        <h1>Location <em>goes here</em></h1>
-                                        <p>Subtittle</p>
-                                    </div>
-                                </div>
-                                <div class="image">
-                                    <img src="img/pic_6.jpeg">
-                                </div>
-                            </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="portfolio-item">
-                        <a href="img/pic_2_big.jpeg" data-lightbox="image-1">
-                            <div class="thumb">
-                                <div class="hover-effect">
-                                    <div class="hover-content">
-                                        <h1>Location <em>goes here</em></h1>
-                                        <p>Subtittle</p>
-                                    </div>
-                                </div>
-                                <div class="image">
-                                    <img src="img/pic_2.jpeg">
-                                </div>
+        </div>
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-12">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="card">
+                                <video src="two.mp4" autoplay loop controls muted></video>
                             </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="portfolio-item">
-                        <a href="img/pic_2_big.jpeg" data-lightbox="image-1">
-                            <div class="thumb">
-                                <div class="hover-effect">
-                                    <div class="hover-content">
-                                        <h1>Location <em>goes here</em></h1>
-                                        <p>Subtittle</p>
-                                    </div>
-                                </div>
-                                <div class="image">
-                                    <img src="img/pic_2.jpeg">
-                                </div>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of
+                                    the
+                                    card's
+                                    content.</p>
                             </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="portfolio-item">
-                        <a href="img/pic_3_big.jpeg" data-lightbox="image-1">
-                            <div class="thumb">
-                                <div class="hover-effect">
-                                    <div class="hover-content">
-                                        <h1>Location <em>goes here</em></h1>
-                                        <p>Subtittle</p>
-                                    </div>
-                                </div>
-                                <div class="image">
-                                    <img src="img/pic_3.jpeg">
-                                </div>
-                            </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -210,15 +106,21 @@ https://templatemo.com/tm-520-highway
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-    <script src="js/vendor/bootstrap.min.js"></script>
-
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
 
 
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
